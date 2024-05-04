@@ -1,0 +1,50 @@
+#upperText{
+  text-align: center;
+}
+#cont{
+  /* margin-inline: 50px; */
+ justify-content: center;
+background-color: #ECEFF7;
+padding: 10px;
+margin-inline:150px;
+
+
+}
+#genre{
+  
+  display: flex;
+  flex-wrap: wrap;
+justify-content:space-around;
+}
+#test{
+  text-align: center;
+  border: 1px solid #E1E1E1;
+border-radius: 5px;
+scale: 1.5;
+gap:15px;
+  background-color: #E1E1E1
+
+  
+}
+#test:hover{
+  background-color: #afadad ;
+  scale: 2;
+}
+#table1{
+  border: 1px solid black;
+ border-spacing: 15px;
+  margin-top: 50px;
+  width: 800px;
+  margin-inline-start: 270px;
+  border-collapse: collapse;
+}
+#tablehead{
+  table-layout: fixed;
+  border-collapse: collapse;
+  padding-right: 20px;
+  background-color:  #E1E1E1;
+}
+td,th{
+  border:1px solid black;
+  padding: 5px;
+}
